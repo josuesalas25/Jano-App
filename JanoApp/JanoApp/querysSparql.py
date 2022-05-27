@@ -44,7 +44,6 @@ class Eventos:
         return resultado
 
     def completaRowAux(self, row):
-
         cuatro = row[4].replace("http://vocab.linkeddata.es/datosabiertos/kos/cultura-ocio/agenda/tipo-evento/", "")
         cinco=row[5].replace("T", " ").replace("+01:00", "")
         seis = row[6].replace("T", " ").replace("+01:00", "")
